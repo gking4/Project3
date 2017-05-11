@@ -1,13 +1,13 @@
 function calcFib()
 {
-  var userInput = document.getElementById('fib').value;
+  var userInput = document.getElementById('fib1').value;
   var userInput2 = document.getElementById('fib2').value;
   if(isNaN(userInput)){console.log("Error: Not a number")}
   if(isNaN(userInput2)){console.log("Error: Not a number")}
   var fibNumbers = [userInput, userInput2];
   for( i = 0; i < 3; i++)
   {
-    fibNumbers.push(fibNumbers[i] + fibnumbers[i+1]);
+    fibNumbers.push(fibNumbers[i] + fibNumbers[i+1]);
   }
   var results = fibNumbers[2] + " " + fibNumbers[3] + " " + fibNumbers[4];
   document.cookie = results;
