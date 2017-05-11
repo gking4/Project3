@@ -1,7 +1,9 @@
 function calcFib()
 {
-  var userInput = document.getElementById("fib").value;
-  var userInput2 = document.getElementById("fib2").value;
+  var userInput = document.getElementById('fib').value;
+  var userInput2 = document.getElementById('fib2').value;
+  if(isNaN(userInput)){console.log("Error: Not a number")}
+  if(isNaN(userInput2)){console.log("Error: Not a number")}
   var fibNumbers = [userInput, userInput2];
   for( i = 0; i < 3; i++)
   {
