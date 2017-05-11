@@ -1,0 +1,26 @@
+#textside
+{
+  width: 60%;
+  background-color: #808080;
+  color: #121310;
+  border-right: solid;
+}
+
+#imageside
+{
+  float:right;
+  width: 40%;
+  background-color: #4d4d4d;
+  color: white;
+}
+
+.background
+{
+  background:grey;
+}
+
+.navtab
+{
+  border-style :solid;
+  background: #cccccc;
+}

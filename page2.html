@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- BOOTSTRAP (style only)-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Interactive Page</title>
+    <script type="text/javascript" src="javascript.js"></script>
+  </head>
+  <body lang="en-US" class="background" >
+            <nav class="navtab">
+        <div class="nav-tab">
+        <a href="index.html" class="navigation">Home</a>
+      </div>
+      </nav>
+    <h1>Fibonacci Sequence</h1>
+                <div class="col-sm-2">
+              <input type="text" id="fib1" class="form-control input-md"
+                  placeholder="Enter a Number"  />
+                  </div>
+                                  <div class="col-sm-2">
+              <input type="text" id="fib2" class="form-control input-md"
+                  placeholder="Enter a Number"  />
+                  </div>
+              <div class="col-sm-offset-2 col-sm-2">
+            <button id="orderButton" type="button" class="btn btn-primary" onclick="calcFib()">
+              Calculate Next Three Numbers
+            </button>
+            </div>
+            <br>
+            <br>
+            <p id="result">
+            </p>
+  </body>
+</html>
