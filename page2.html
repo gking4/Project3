@@ -8,7 +8,7 @@
     <title>Interactive Page</title>
     <script type="text/javascript" src="javascript.js"></script>
   </head>
-  <body lang="en-US" class="background" >
+  <body lang="en-US" class="background" onload="start()">
             <nav class="navtab">
         <div class="nav-tab">
         <a href="index.html" class="navigation">Home</a>
@@ -30,7 +30,15 @@
             </div>
             <br>
             <br>
+            <p>
+              Your results are: 
+            </p>
             <p id="result">
             </p>
+            <br>
+            <p>
+              Your previous results were: 
+            </p>
+            <p id="oldvalues"></p>
   </body>
 </html>
